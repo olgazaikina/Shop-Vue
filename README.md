@@ -1,0 +1,1 @@
+Shop VueJs Project includes Cart component and Catalog component.
