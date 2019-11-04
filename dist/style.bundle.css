@@ -1,0 +1,150 @@
+body {
+	padding: 0;
+	margin: 0;
+	font: 16px  'Roboto', sans-serif;
+	background: #f6f6f6;
+}
+body * {
+	box-sizing: border-box;
+}
+button {
+	border-radius: 3px;
+	border: 1px solid #9a9696;
+	padding: 3px 8px;
+	background: #ffc455;
+	cursor: pointer;
+}
+.pd-hr-15 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container {
+	margin: 100px auto;
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.error {
+	padding: 15px;
+	border: 1px solid #fbafaf;
+	border-radius: 3px;
+	color: red;
+	background: #fee;
+}
+.category-wrap {
+	margin-bottom: 20px;
+	border-radius: 3px 3px 0 0;
+	border: 1px solid #8c8c8c;
+	border-bottom: none;
+}
+.category-name {
+	padding: 8px 20px;
+	border-bottom: 1px solid #8c8c8c;
+	background-color: #e2e2f2;
+	background-image: url(src/style/img/ic-down.png);
+	background-position: 5px center ;
+	background-repeat: no-repeat;
+	background-size: 10px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.category-name.active {
+	background-image: url(src/style/img/ic-up.png);
+}
+.category-list {
+	width: 100%;
+	border-collapse:collapse;
+	color: #605a5a;
+}
+.category-list td {
+	padding: 6px 10px;
+	vertical-align: middle;
+	border-bottom: 1px solid #8c8c8c;
+	font-size: 12px;
+}
+.category-list-item-price {
+	width: 120px;
+	background: #eaeaea;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+.risen {
+	background: #ffc8c8;
+}
+.norisen {
+	background: #cbffcb;
+}
+.category-list-item:hover, .category-list-item:hover td {
+	background: #ffd9b8;
+}
+.td-add {
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+}
+.remove {
+	background: #febdbd;
+}
+.row:after {
+	display: block;
+	clear: both;
+	content: " ";
+}
+.col-6 {
+	float: left;
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.cart {
+	width: 100%;
+	margin-top: 40px;
+	border-collapse:collapse;
+	clear: both;
+	font-size: 12px;
+}
+.cart th, .cart td {
+	padding: 6px 10px;
+	border-bottom: 1px solid #cfcfcf;
+	color: #605a5a;
+}
+.cart th {
+	font-weight: 500;
+	text-align: left;
+	
+}
+.cart tr:last-child td {
+	border: none;
+}
+.cart-item, .cart .cart-item td {
+	font-size: 16px;
+	color: #000;
+}
+.cart-item-quantity, .cart-item-btn {
+	width: 60px;
+}
+.cart-item-price {
+	width: 120px;
+}
+.right-text {
+	text-align: right;
+}
+.total {
+	font-size: 16px;
+	font-weight: 600;
+	color: orange;
+}
+.quantity, .events {
+	width: 200px;
+}
+.clearfix {
+	clear: both;
+}
+.quantity-info {
+	display: block;
+	margin-top: 5px;
+	color: orange;
+	font-size: 12px;
+}
